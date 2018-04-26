@@ -1,8 +1,1 @@
-maven_build:
-  script: 
-    - "pwd"
-    - "export DISPLAY=:99"
-    - "Xvfb :99 &"
-    - "mvn test"
-    - "java -version"
-  image: tudsqte/ci-image
+
